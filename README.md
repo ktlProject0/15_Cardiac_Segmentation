@@ -34,6 +34,7 @@
   - 네트워크 학습 코드
 ## Evaluation.ipynb
   - 네트워크 성능 평가 및 척추 분할 결과 가시화
+  - 학습완료 된 모델 가중치 (/Code/output/model_final.pth)
 ## model_torch.py
   - Residual UNet 아키텍쳐 빌드
 ## Preprocessing.py
