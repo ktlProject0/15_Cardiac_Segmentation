@@ -1,4 +1,4 @@
-# 15_Cardiac_Segmentation
+# KTL_project_15_CT_Cardiac_Segmentation
 
 ## Data Description
 1. 학습용 데이터 (/Data/...)
@@ -28,6 +28,22 @@
    
    - 원본 CT 영상 (/Data/LCTSC-Test-##-###/###.nii)
    - 심장 분할 마스크 (/Data/LCTSC-Test-##-###/###-label.nii)
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
+- Linux or macOS
+- Python 3
+- CPU or NVIDIA GPU + CUDA CuDNN
+- Other dependencies can be installed using `environment.yml`
+  
+## Getting Started
+### Installation
+
+- Clone this repo:
+```bash
+git clone https://github.com/ktlProject0/KTL_project_15_CT_Cardiac_Segmentation.git
+cd KTL_project_15_CT_Cardiac_Segmentation
+```
+ - You can create a new Conda environment using `conda env create -f environment.yml`.
 
 ## Code Description
 ## Training.ipynb
