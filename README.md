@@ -68,7 +68,9 @@ cd KTL_project_15_CT_Cardiac_Segmentation
 
 
 # [참고] 3DSlicer에서 니프티(nii) 데이터 내보내기 가이드
+- https://www.slicer.org/
 
+  
 ## 1. 데이터 불러오기
 1. 다운로드 받은 데이터의 각 폴더를 Slicer에 드래그 앤 드롭
 
