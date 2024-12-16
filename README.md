@@ -82,13 +82,23 @@ cd KTL_project_15_CT_Cardiac_Segmentation
 
 ## 2. DICOM 데이터 추가  
 1. Modules > Add DICOM Data 창으로 이동
+
+![image03](https://github.com/user-attachments/assets/d2c29782-7aa5-4cd0-b8c3-497dcd8562ba)
+
 2. 개체 별 데이터를 Load하여 데이터 확인
+
+![image04](https://github.com/user-attachments/assets/d78667ee-73da-426a-a696-05bb64b13158)
 
 ## 3. Heart 레이블맵 내보내기
 1. Loaded data 창에서:
   - Heart를 제외한 다른 해부학적 구조물의 annotation 삭제
   - Heart 레이블 우클릭 후, Export labelmap 버튼 클릭
+
+![image05](https://github.com/user-attachments/assets/90d958ba-71f7-43b6-9fc2-135066057917)
+
 2. 생성된 라벨맵 객체 우클릭 후, Export to file 버튼 클릭
+
+![image06](https://github.com/user-attachments/assets/b345a416-fd29-4088-84f5-64fc7495e45e)
 
 ## 4. 파일 저장
 1. Heart 레이블맵 저장:
@@ -96,7 +106,12 @@ cd KTL_project_15_CT_Cardiac_Segmentation
   - Export 버튼 클릭
   - 저장된 니프티 파일을 데이터셋으로 사용
 
+![image07](https://github.com/user-attachments/assets/b266b836-77ce-4e21-bd10-1ec9a5a720e0)
+
 2. CT 영상 저장:
   - 별도의 처리 과정 없이 객체 우클릭
   - Export to file 버튼을 통해 nii 형태로 저장  
   - 저장된 파일을 데이터셋으로 사용
+
+![image08](https://github.com/user-attachments/assets/57b38209-c55b-45c4-819b-f5c69f5614f7)
+
