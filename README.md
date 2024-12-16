@@ -65,3 +65,33 @@ cd KTL_project_15_CT_Cardiac_Segmentation
   - 학습용 loss 함수 코드
   - Dice loss
   - Focal loss
+
+
+# [참고] 3DSlicer에서 니프티(nii) 데이터 내보내기 가이드
+
+## 1. 데이터 불러오기
+1. 다운로드 받은 데이터의 각 폴더를 Slicer에 드래그 앤 드롭
+![image01](https://github.com/user-attachments/assets/cd37a046-7c95-4825-9e26-3b908b4520b9)
+
+2. 나타나는 창에서 OK 버튼 클릭
+
+## 2. DICOM 데이터 추가  
+1. Modules > Add DICOM Data 창으로 이동
+2. 개체 별 데이터를 Load하여 데이터 확인
+
+## 3. Heart 레이블맵 내보내기
+1. Loaded data 창에서:
+  - Heart를 제외한 다른 해부학적 구조물의 annotation 삭제
+  - Heart 레이블 우클릭 후, Export labelmap 버튼 클릭
+2. 생성된 라벨맵 객체 우클릭 후, Export to file 버튼 클릭
+
+## 4. 파일 저장
+1. Heart 레이블맵 저장:
+  - Export format에서 nii 선택  
+  - Export 버튼 클릭
+  - 저장된 니프티 파일을 데이터셋으로 사용
+
+2. CT 영상 저장:
+  - 별도의 처리 과정 없이 객체 우클릭
+  - Export to file 버튼을 통해 nii 형태로 저장  
+  - 저장된 파일을 데이터셋으로 사용
