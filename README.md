@@ -71,10 +71,14 @@ cd KTL_project_15_CT_Cardiac_Segmentation
 
 ## 1. 데이터 불러오기
 1. 다운로드 받은 데이터의 각 폴더를 Slicer에 드래그 앤 드롭
+
+
 ![image01](https://github.com/user-attachments/assets/cd37a046-7c95-4825-9e26-3b908b4520b9)
 
 
 2. 나타나는 창에서 OK 버튼 클릭
+
+
 ![image02](https://github.com/user-attachments/assets/59ce5c2c-03d3-425f-bb51-91d7448b82f2)
 
 ## 2. DICOM 데이터 추가  
